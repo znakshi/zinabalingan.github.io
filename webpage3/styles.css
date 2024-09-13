@@ -1,0 +1,49 @@
+/* Basic styles for the body */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c7beac;
+}
+
+/* Styles for the header */
+header {
+    background-color: #534931;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styles for the section containing images */
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Styling individual images */
+section img {
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+/* Add interactivity: scale image when hovered */
+section img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer styles */
+footer {
+    background-color: #534931;;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
